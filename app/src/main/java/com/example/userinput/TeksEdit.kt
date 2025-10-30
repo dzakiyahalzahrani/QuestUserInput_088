@@ -106,7 +106,7 @@ fun FormDataDiri(modifier: Modifier)
             )
         ElevatedCard (
             elevation = CardDefaults.cardElevation(defaultElevation = 10.dp),
-
+            colors = CardDefaults.cardColors(containerColor = Color.Black),
             )
 
 
