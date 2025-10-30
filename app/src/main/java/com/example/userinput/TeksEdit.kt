@@ -104,7 +104,10 @@ fun FormDataDiri(modifier: Modifier)
             thickness = dimensionResource(R.dimen.divider_tipis),
             color = Color.DarkGray
             )
-        ElevatedCard ()
+        ElevatedCard (
+            elevation = CardDefaults.cardElevation(defaultElevation = 10.dp),
+
+            )
 
 
 
