@@ -97,6 +97,9 @@ fun FormDataDiri(modifier: Modifier)
         ){
             Text(stringResource(R.string.submit))
         }
+        HorizontalDivider(
+
+        )
 
 
 
